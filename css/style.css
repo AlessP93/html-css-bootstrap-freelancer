@@ -1,0 +1,9 @@
+.container-fluid {
+   border: 1px solid red;
+}
+
+.container-custom {
+    margin: auto;
+    max-width: 500px;
+    border: 1px solid red;
+}
