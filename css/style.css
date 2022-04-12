@@ -1,9 +1,50 @@
-.container-fluid {
-   border: 1px solid red;
+.bc-primary {
+    background-color: #19BC9C;
 }
 
-.container-custom {
-    margin: auto;
-    max-width: 500px;
-    border: 1px solid red;
+.bc-secondary {
+    background-color: #2C3E4F;
+}
+
+header {
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+    
+    justify-content: flex-end;
+    gap: 0 10px;
+    margin-bottom: 0px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    color: white;
+}
+
+.line-star {
+    display: flex;
+}
+
+.line {
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.star {
+    flex-grow: 1;
 }
