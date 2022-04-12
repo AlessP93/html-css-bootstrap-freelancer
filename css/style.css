@@ -6,6 +6,11 @@
     background-color: #2C3E4F;
 }
 
+.bc-secondary {
+    background-color: #2C3E4F;
+}
+
+
 /* -----HEADER----- */
 
 header {
@@ -15,6 +20,8 @@ header {
 .logo {
     font-size: 22px;
 }
+
+/* -----MAIN----- */
 
 .main-nav ul{
     display: flex;
@@ -30,11 +37,22 @@ header {
     color: white;
 }
 
-/* -----HEADER----- */
+/* -----CONTAINER----- */
 
 .container-custom {
-    width: 200px;
+    max-width: 200px;
     margin: auto;
+}
+
+.container-small {
+    max-width: 80%;
+    margin: auto;
+}
+
+/* -----HERO----- */
+
+.row img {
+    border-radius: 10px;
 }
 
 .hero {
@@ -46,6 +64,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: inherit;
 }
 
 .line {
@@ -66,5 +85,16 @@ header {
 
 .star {
     flex-grow: 1;
-    
+}
+
+.about {
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    border-color: white;
 }
