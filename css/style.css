@@ -67,7 +67,7 @@ header {
 }
 
 .line {
-    width: 70px;
+    width: 100px;
     height: 3px;
     background-color: white;
     align-items: center;
@@ -75,7 +75,7 @@ header {
 }
 
 .line-black {
-    width: 70px;
+    width: 100px;
     height: 3px;
     background-color: black;
     align-items: center;
@@ -83,7 +83,8 @@ header {
 }
 
 .star {
-    flex-grow: 1;
+   padding: 0 10px;
+   font-size: 20px;
 }
 
 .about {
