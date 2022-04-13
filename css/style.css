@@ -118,7 +118,49 @@ header {
     margin: 0 5px;
 }
 
+/* -----FOOTER----- */
+
 .link-footer a{
     text-decoration: none;
     color: #24ddb8;
+}
+
+/* -----HOVER----- */
+
+a:hover {
+    color: yellow;
+}
+
+.social i:hover {
+    color: yellow;
+}
+
+/* -----OVERLAY----- */
+
+.img {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border-radius: 10px;
+}
+
+.img:hover .overlay{
+    opacity: 1;
 }
