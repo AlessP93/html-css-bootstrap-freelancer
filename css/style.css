@@ -6,8 +6,8 @@
     background-color: #2C3E4F;
 }
 
-.bc-secondary {
-    background-color: #2C3E4F;
+.bc-tertiary {
+    background-color: #4c7090;
 }
 
 
@@ -26,7 +26,6 @@ header {
 .main-nav ul{
     display: flex;
     list-style: none;
-    
     justify-content: flex-end;
     gap: 0 10px;
     margin-bottom: 0px;
@@ -91,10 +90,35 @@ header {
     color: white;
 }
 
-button {
+.btn {
     background-color: transparent;
     border-radius: 5px;
     color: white;
     padding: 5px 15px;
     border-color: white;
+}
+
+.btn-green {
+    background-color: #19BC9C;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px;
+    border-color: white;
+}
+
+.social a i{
+    text-decoration: none;
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 22px;
+    margin: 0 5px;
+}
+
+.link-footer a{
+    text-decoration: none;
+    color: #24ddb8;
 }
